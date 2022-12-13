@@ -63,7 +63,7 @@ export const Frontpage = () => {
         </PawContainer>
         <Chat />
       </StyledNav>
-      {/* Displays items from item array */}
+      {/* Displays items from array */}
       {dogs.map((item, index) => {
         if (index === state)
           return (
