@@ -3,7 +3,7 @@ import dog2 from "../../images/dog2.jpg";
 import dog3 from "../../images/dog3.jpg";
 import like from "../../images/like.png";
 import nope from "../../images/nope.png";
-
+//Array for items
 export const dogs = [
   {
     name: "Rex",
@@ -30,7 +30,7 @@ export const dogs = [
     hasBeenLiked: false,
   },
 ];
-
+//Object for yes or no
 export const LikeorNope = {
   Or: {
     good: like,
